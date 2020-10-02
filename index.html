@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denise Kruse's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <script src="https://kit.fontawesome.com/b052ae7eaa.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Source+Sans+Pro:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">DENISE L. KRUSE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#top">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutMe">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#connect">CONNECT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ABOUT ME  -->
+    <br><br>
+    <div class="container" id="aboutMe">
+        <div class="row" id="aboutMeRow">
+            <div class="col-sm" id="aboutMeText">
+                <h1 class="display-5">ABOUT ME</h1>
+                <br>
+                <p class="intro">After graduating with honors from Ball State University with a degree in Business
+                    Administration and dual minors in Sociology and Wellness & Gerontology, I dedicated my career to the
+                    non-profit and senior operations sectors.</p>
+                <p class="intro">When our world changed drastically due to the COVID-19 pandemic, it was the catalyst
+                    for me to pursue my passion and rethink my career. I enrolled in the Eleven Fifty Academy to hone in
+                    ony my web development skills.</p>
+                <p class="intro">I look forward to helping companies shine through their website.</p>
+                <br>
+                <!-- RESUME DOWNLOAD -->
+                <div id="resumeButtonDiv">
+                    <a href="portfolioAssets/portfolioResume.pdf" target="_blank"><button type="button"
+                            class="btn btn-info" id="resumeButton">Download My Resume</button></a>
+                </div>
+            </div>
+            <div class="col-sm" id="headshot">
+                <img src="portfolioAssets/Headshot copy.jpeg" id="headshotImage" alt="deniselkruse">
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+
+
+
+    <!-- PORTFOLIO -->
+    <h1 class="display-5">PORTFOLIO</h1>
+    <br><br>
+    <div class="portfolioContainer">
+        <div class="row no-gutters">
+            <div class="col-sm" id="portfolioImage">
+                <a href="https://dlk-api2project.web.app/" target="blank">
+                    <img src="portfolioAssets/portfolioNationalParks.png" class="portfolioScreenshot">
+                    <div class="overlay">
+                        <div class="text">
+                            <p>Explore the National Parks</p>
+                            <p class="portfolioCaption">An app to discover any of the 421 National Parks from the NPS
+                                Data API.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm" id="portfolioImage">
+                <a href="https://deniselkruse.github.io/apiProject/" target="blank">
+                    <img src="portfolioAssets/portfolioRecipeGenerator.png" class="portfolioScreenshot">
+
+                    <div class="overlay">
+                        <div class="text">
+                            <p>Recipe Generator</p>
+                            <p class="portfolioCaption">An app to solve the problem of "What's for dinner?" utilizing
+                                the Spoonacular API.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm" id="portfolioImage">
+                <a href="https://deniselkruse.github.io/staticLayout/" target="blank">
+                    <img src="portfolioAssets/portfolioStaticLayout.png" class="portfolioScreenshot">
+
+                    <div class="overlay">
+                        <div class="text">
+                            <p>Static Layout</p>
+                            <p class="portfolioCaption">Recreation of the KAST app as a static website using only HTML &
+                                CSS.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm" id="portfolioImage">
+                <a href="https://codepen.io/dkruse/pen/RwarBjv" target="blank">
+                    <img src="portfolioAssets/portfolioCSSCreature.png" class="portfolioScreenshot">
+
+                    <div class="overlay">
+                        <div class="text">
+                            <p>CSS Mouse</p>
+                            <p class="portfolioCaption">Construction of Mickey Mouse using CSS in CodePen.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+
+    <!-- SKILLS  -->
+    <br><br>
+    <h1 class="display-5" id="skills">SKILLS</h1>
+    <br><br>
+    <div class="container" id="skillsContainer">
+        <div class="row">
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-html5" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>HTML5</b></span>
+                <br>
+
+            </div>
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-css3-alt" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>CSS3</b></span>
+                <br>
+            </div>
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-js-square" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>JAVASCRIPT</b></span>
+                <br>
+            </div>
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-angular" id="skillsIcon" style="font-size: 5em"></i>
+                <span class="skillsTitle"><b>ANGULAR</b></span>
+            </div>
+            <div class="w-100"></div> <br>
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-github-square" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>GITHUB</b></span>
+                <br>
+            </div>
+            <!-- <div class="col-sm" id="skillsBoxes">
+                <img src= "portfolioAssets/firebase-icon.png" class="firebase" style="color: #81D8D0">
+                <br>
+                <span class="skillsTitle"><b>Firebase</b></span>
+                <br>
+            </div> -->
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-react" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>REACT</b></span>
+                <br>
+            </div>
+            <div class="col-sm" id="skillsBoxes">
+                <i class="fab fa-bootstrap" id="skillsIcon" style="font-size: 5em"></i>
+                <br>
+                <span class="skillsTitle"><b>BOOTSTRAP</b></span>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+
+    <!-- CONNECT -->
+    <h1 class="display-5" id="connect">CONNECT</h1>
+    <br><br>
+    <form class="contactForm" name="simple-contact-form" accept-charset="utf-8"
+        action="https://formspree.io/f/xoqkojlj" method="POST">
+
+
+        <fieldset id="fs-frm-inputs">
+            <label class="form-group">
+                <span>Your Name </span>
+                <input type="text" name="name" id="full-name" required="true">
+            </label>
+            <label class="form-group">
+                <span>Email </span>
+                <input type="email" name="_replyto" id="email-address" required="true">
+            </label>
+            <label class="form-group">
+                <span>Message </span>
+                <textarea name="message" onkeyup="adjust_textarea(this)" required="true"></textarea>
+            </label>
+
+            <!-- CONNECT BUTTON -->
+            <input type="hidden" name="_subject" id="email-subject" value="Portfolio Contact Form Submission">
+            <div id="connectButtonDiv">
+                <button type="submit" input type="submit" class="btn btn-info" id="connectButton" value="SEND">SEND</button>
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+
+    <!--CONTACT ICONS-->
+    <div class="contactIcons">
+        <a href="https://www.linkedin.com/in/deniselkruse/" target="blank">
+            <i class="fab fa-linkedin" id="linkedInIcon" style="font-size: 5em"></i>
+        </a>
+
+        <a href="https://github.com/deniselkruse" target="blank">
+            <i class="fab fa-github-square" id="githubIcon" style="font-size: 5em"></i>
+        </a>
+    </div>
+    <br>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+        <br>
+        <div class="row">
+            <div class="col">
+                <a class="footerLink" href="#top">HOME</a>
+            </div>
+            <div class="col">
+                <a class="footerLink" href="#aboutMe">ABOUT ME</a>
+            </div>
+            <div class="col">
+                <a class="footerLink" href="#portfolio">PORTFOLIO</a>
+            </div>
+            <div class="col">
+                <a class="footerLink" href="#skills">SKILLS</a>
+            </div>
+            <div class="col">
+                <a class="footerLink" href="#connect">CONNECT</a>
+            </div>
+        </div>
+        <hr>
+        <!--Line Break-->
+        <div class="col-md-12 text-center">
+            <p class="copyrightText">© Copyright 2020: Denise L. Kruse</p>
+            <br>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script src="index.js"></script>
+
+</html>

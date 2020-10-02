@@ -1,0 +1,350 @@
+body {
+    background-color: #f0f7f6;
+}
+
+/* NAVBAR */
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-shadow: 1px 1px 4px #7b7b7b;
+}
+
+.navbar-brand:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+.navbar-toggler:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+/* ABOUT ME */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-style: bold;
+    font-size: 35px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 800; 
+    line-height: 26.4px;
+    text-align: center;
+    text-shadow: 1px 1px 4px #7b7b7b;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#headshotImage {
+    display: block;
+    text-align: center;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 4px #7b7b7b;
+    transition: 1s ease;
+}
+
+#headshotImage:hover {
+    -webkit-transform: rotateZ(-15deg);
+    -ms-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+    transition: 1s ease;
+}
+
+#headshot {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+#resumeButtonDiv {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#resumeButton {
+    background-color: #0abab5;
+    box-shadow: 1px 1px 4px #7b7b7b;
+}
+
+#resumeButton:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#aboutMeText {
+    display: block;
+    position: relative;
+    font-family: 'v', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    flex: 50%;
+}
+
+/* PORTFOLIO */
+
+.portfolioContainer {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #81D8D0;
+  }
+
+.portfolioScreenshot {
+    box-shadow: 1px 1px 4px #7b7b7b;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.portfolioCaption {
+    font-size: 16px;
+}
+
+#portfolioImage:hover .overlay {
+    opacity: 1;
+}
+
+#portfolioScreenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    flex: none;
+}
+
+/*SKILLS ICONS */
+
+.skillsTitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+#skillsBoxes {
+    display: block;
+    text-align: center;
+}
+
+#skillsIcon {
+    color: #81D8D0;
+    text-align: center;
+}
+
+#skillsIcon:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#firebase {
+    color: #81D8D0;
+    size: 5em;
+}
+
+/* CONNECT */
+
+.contactForm{
+	width: 450px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-transform: uppercase;
+	background: #495C70;
+	padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow: 1px 1px 4px #7b7b7b;
+}
+
+.contactForm input[type=text],
+.contactForm input[type=email] 
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	outline: none;
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+}
+
+.contactForm textarea{
+	font-style: italic;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1px dashed #83A4C5;
+	width: 275px;
+	overflow: hidden;
+	resize:none;
+	height:20px;
+}
+
+.contactForm textarea:focus, 
+.contactForm input[type=text]:focus,
+.contactForm input[type=email]:focus,
+.contactForm input[type=email]:focus
+{
+	border-bottom: 1px dashed #D9FFA9;
+}
+
+.contactForm input[type=submit],
+.contactForm input[type=button]{
+	background: #576E86;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+
+.contactForm input[type=submit]:hover,
+.contactForm input[type=button]:hover{
+background: #394D61;
+}
+
+/* CONNECT */
+
+.contactIcons {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#connectButton {
+    background-color: #0abab5;
+    box-shadow: 1px 1px 4px #7b7b7b;
+}
+
+#connectButton:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#connectButtonDiv {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+#linkedInIcon {
+    color: #0e76a8;
+    margin-right: 15px;
+    transition: 1s ease;
+}
+
+#githubIcon {
+    color: #333;
+    margin-left: 15px;
+    transition: 1s ease;
+}
+
+#linkedInIcon:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+#githubIcon:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;    
+}
+
+/* FOOTER */
+
+.footer {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #81D8D0;
+}
+
+.copyrightText {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: monaco, Consolas, "Lucida Console", monospace; 
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footerLink {
+    color: #5d6767;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: #0abab5;
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
